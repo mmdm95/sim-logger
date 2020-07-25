@@ -1,20 +1,21 @@
 {
-    "name": "mmdm/sim-logger",
-    "description": "A simple yet nice logger library",
-    "type": "library",
-    "license": "MIT",
-    "authors": [
-        {
-            "name": "MMDM",
-            "email": "mmdehghan95@gmail.com"
-        }
-    ],
-    "require": {
-      "ext-json": "*"
-    },
-    "autoload": {
-        "psr-4": {
-            "Sim\\Logger\\": "src/"
-        }
+  "name": "mmdm/sim-logger",
+  "description": "A simple yet nice logger library",
+  "type": "library",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "MMDM",
+      "email": "mmdehghan95@gmail.com"
     }
+  ],
+  "require": {
+    "php": ">=7.2",
+    "ext-json": "*"
+  },
+  "autoload": {
+    "psr-4": {
+      "Sim\\Logger\\": "src/"
+    }
+  }
 }
