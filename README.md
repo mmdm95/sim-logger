@@ -79,21 +79,21 @@ class CustomHandler implements IHandler
 There are many functions to log your message. The order of importance 
 of them are:
 
-EMERGENCY - highest level priority
+ - EMERGENCY - highest level priority
 
-ALERT
+ - ALERT
 
-CRITICAL
+ - CRITICAL
 
-ERROR
+ - ERROR
 
-WARNING
+ - WARNING
 
-NOTICE
+ - NOTICE
 
-INFO
+ - INFO
 
-DEBUG - lowest level priority
+ - DEBUG - lowest level priority
 
 ```php
 // log emergency
