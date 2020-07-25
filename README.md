@@ -148,7 +148,8 @@ $logger->dateFormat('Y/m/d H:i');
 ```
 
 If you want have a better experience with date, you should enter 
-your timezone through `setTimezone($timezone)` method.
+your timezone through `setTimezone($timezone)` method. Default timezone 
+is environment default timezone.
 
 The timezone will show with date for more information.
 
