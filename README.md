@@ -4,7 +4,7 @@ A library to log your activities
 ## Install
 **composer**
 ```php 
-composer require mmdm\sim-logger
+composer require mmdm/sim-logger
 ```
 
 Or you can simply download zip file from github and extract it,
