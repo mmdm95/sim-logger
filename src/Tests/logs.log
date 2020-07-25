@@ -1,0 +1,11 @@
+custom level: 2020-07-25 15:45:08 (Europe/Berlin) - this is a log message. | 2807
+custom level: 2020-07-25 15:45:10 (Europe/Berlin) - this is a log message. | 821
+custom level: 2020-07-25 15:45:10 (Europe/Berlin) - this is a log message. | 977
+timezone test: 2020-07-25 09:44:05 (America/New_York) - this is a log message. | 6173
+timezone test: 2020-07-25 09:45:13 (America/New_York) - this is a log message. | 4966
+timezone test: 2020-07-25 09:46:19 (America/New_York) - this is a log message. | 3375
+debug: 2020-07-25 15:46:31 (Europe/Berlin) - this is a log message. | 5852
+debug: 2020-07-25 15:46:52 (Europe/Berlin) - this is a log message. | 3389
+notice: 2020-07-25 16:32:08 (Europe/Berlin) - ["item1","item2"] | 7399
+notice: 2020-07-25 16:35:34 (Europe/Berlin) - {"hello":"hello","world":"world"} | 8743
+notice: 2020-07-25 16:36:11 (Europe/Berlin) - [["item1","item2"],["item3","item4"]] | 7848
