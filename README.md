@@ -127,7 +127,7 @@ $logger->log($message, LOGGER::DEBUG);
 $logger->log($message, 'custom level');
 ```
 
-If you additional data to log, then you should use 
+If you have additional data to log, then you should use 
 `extraParameters($parameter)` method and modify logger format to 
 show your parameter in log message with `format($format)` method.
 
