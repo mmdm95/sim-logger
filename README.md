@@ -1,7 +1,7 @@
-#Simplicity Logger
+# Simplicity Logger
 A library to log your activities
 
-##Install
+## Install
 **composer**
 ```php 
 composer require mmdm\sim-logger
@@ -10,7 +10,7 @@ composer require mmdm\sim-logger
 Or you can simply download zip file from github and extract it,
  then put file to your project library and use it like other libraries.
 
-##How to use
+## How to use
 ```php
 // for instance a logger object
 $logger = new Logger(new FileHandler($directory_to_store_logs));
@@ -21,7 +21,7 @@ $logger->debug('this is a debug message');
 
 Or instantiate `Logger` with other optional constructor parameters
 
-####Description
+#### Description
 
 ```php
 $logger = new Logger([$handler[, $format[, $date_format]]]);
@@ -74,7 +74,7 @@ class CustomHandler implements IHandler
 
 `$format_date` is to format date of log. Default value is `Y-m-d H:i:s`.
 
-##Available functions
+## Available functions
 
 There are many functions to log your message. The order of importance 
 of them are:
@@ -158,5 +158,5 @@ exp. 2020-07-25 09:46:19 (America/New_York)
 $logger->setTimezone('America/New_York');
 ```
 
-#License
+# License
 Under MIT license.
