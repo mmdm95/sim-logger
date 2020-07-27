@@ -7,12 +7,12 @@ A library to log your activities
 composer require mmdm/sim-logger
 ```
 
-Or you can simply download zip file from github and extract it,
- then put file to your project library and use it like other libraries.
+Or you can simply download zip file from github and extract it, 
+then put file to your project library and use it like other libraries.
 
 ## How to use
 ```php
-// for instance a logger object
+// to instance a logger object
 $logger = new Logger(new FileHandler($directory_to_store_logs));
 
 // now use logger functions, for instance debug method
