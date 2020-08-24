@@ -43,7 +43,7 @@ class Logger implements ILogger
      * @param string $format
      * @param string $date_format
      */
-    public function __construct(IHandler $handler = null, $format = '{level}: {date} - {message}', $date_format = 'Y-m-d H:i:s')
+    public function __construct(?IHandler $handler = null, $format = '{level}: {date} - {message}', $date_format = 'Y-m-d H:i:s')
     {
         $this->handler = $handler;
         $this->timezone = date_default_timezone_get();
