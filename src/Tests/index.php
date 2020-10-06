@@ -4,6 +4,7 @@ use Sim\Logger\Handler\File\FileHandler;
 use Sim\Logger\Logger;
 
 include_once '../../vendor/autoload.php';
+//include_once '../../autoloader.php';
 
 $logger = new Logger(new FileHandler(__DIR__ . DIRECTORY_SEPARATOR . 'logs.log'));
 

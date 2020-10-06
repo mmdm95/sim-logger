@@ -9,3 +9,5 @@ debug: 2020-07-25 15:46:52 (Europe/Berlin) - this is a log message. | 3389
 notice: 2020-07-25 16:32:08 (Europe/Berlin) - ["item1","item2"] | 7399
 notice: 2020-07-25 16:35:34 (Europe/Berlin) - {"hello":"hello","world":"world"} | 8743
 notice: 2020-07-25 16:36:11 (Europe/Berlin) - [["item1","item2"],["item3","item4"]] | 7848
+debug: 2020-10-06 02:42:46 (Europe/Berlin) - this is a log message. | 9114
+debug: 2020-10-06 02:42:50 (Europe/Berlin) - this is a log message. | 5367
